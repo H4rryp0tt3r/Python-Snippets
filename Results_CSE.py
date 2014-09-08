@@ -35,4 +35,4 @@ for row in idpass:
 	print "[+] Results of %s-%s is Fetched\n"%(username,oname)
 	db.commit()
 print "[+] Hmm... No More Students Boss Quitting on your Command.\n"
-print "[+] Forgot to tell you Have a Good Day Boss :-) \n"
+print "[+] Forgot to tell you Have a Good Day Boss  :-) \n"
