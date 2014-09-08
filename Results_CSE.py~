@@ -32,7 +32,7 @@ for row in idpass:
 	cred=str(tds[3].text)
 	print sgpa,cred
 	c.execute("INSERT INTO `GPA` (`ID`, `Name`, `COA`, `COAL`, `PPL`, `PPLL`, `AOA`, `TOC`, `Breadth`, `SGPA`, `Credits`) VALUES ('"""+username+"""', '"""+name+"""', '"""+grades[0]+"""', '"""+grades[1]+"""', '"""+grades[2]+"""', '"""+grades[3]+"""', '"""+grades[4]+"""', '"""+grades[5]+"""', '"""+grades[6]+"""','"""+sgpa+"""', '"""+cred+"""');""")
-	print "[+] Results of %s-%s is Fetched\n"%( username,oname )
+	print "[+] Results of %s-%s is Fetched\n"%(username,oname)
 	db.commit()
 print "[+] Hmm... No More Students Boss Quitting on your Command.\n"
 print "[+] Forgot to tell you Have a Good Day Boss :-) \n"
